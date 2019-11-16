@@ -1,0 +1,39 @@
+/* 在CSS文件中引入antd的css文件 */
+@import '~antd/dist/antd.css';
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 50px;
+    background-color: #444;
+}
+.header header{
+    width: 1200px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.header header a{
+    margin: 0 20px;
+    color: #fff;
+}
+.header img{
+    width: 120px;
+}
+
+/* content */
+.content{
+    width: 1200px;
+    margin: 30px auto 0;
+}
+.left{
+    width: 900px;
+    float: left;
+}
+.right{
+    width: 270px;
+    float: right;
+    height: 500px;
+    background-color: red;
+}
